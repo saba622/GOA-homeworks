@@ -1,17 +1,17 @@
 
 hobby = "პროგრამირება"
 
- #შეიქმნება string ტიპის ცვლადი
+
 message = "ჩემი ჰობი არის: "
 
 
 print(message + hobby)
 
-#ორი integer ტიპის ცვლადი
+
 num1 = 5
 num2 = 7
 
-#დაბეჭდვა ორი ცვლადის ჯამის
+
 print(num1 + num2)
 
 

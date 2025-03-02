@@ -30,11 +30,11 @@ print(10.5 / 2)
 
 
 
-print(10 % 3)  # 1
-print(20 % 6)  # 2
-print(15 % 4)  # 3
-print(7 % 3)  # 1
-print(10 % 2)  # 0
+print(10 % 3)  
+print(20 % 6)  
+print(15 % 4)  
+print(7 % 3)  
+print(10 % 2)  
 
 
 

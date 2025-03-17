@@ -1,10 +1,11 @@
-name = " me var saba"
+name = "saba"
 
 surname = "samashvili"
 
 age =  15 
 
+
 city = "mcxetidan"
 
 
-print (name + " " + surname + " " + str(age) + " " + city)
+print (name + " " + surname + " " + str(age)+" " + "wlis" + " " + city)

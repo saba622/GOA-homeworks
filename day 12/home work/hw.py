@@ -1,0 +1,36 @@
+
+print(5 > 3)
+print(2 > 7)
+print(10 > 10)
+print(-1 > -5)
+print(0 > -2)
+
+print(5 >= 3)
+print(2 >= 7)
+print(10 >= 10)
+print(-1 >= -5)
+print(0 >= 0)
+
+print(5 < 3)
+print(2 < 7)
+print(10 < 10)
+print(-1 < -5)
+print(0 < -2)
+
+print(5 <= 3)
+print(2 <= 7)
+print(10 <= 10)
+print(-1 <= -5)
+print(0 <= 0)
+
+print(5 == 3)
+print(2 == 2)
+print(10 == 10)
+print(-1 == -5)
+print(0 == 0)
+
+print(5 != 3)
+print(2 != 2)
+print(10 != 10)
+print(-1 != -5)
+print(0 != 0)

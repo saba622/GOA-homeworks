@@ -4,7 +4,4 @@ dadname = "avto"
 sistername = "salo"
 sistername2 = "irinka"
 
-print (mothername)
-print(dadname)
-print(sistername)
-print(sistername2)
+print ("my mother is " + mothername + " my dad name is " + dadname + " my sister name is " + sistername + " and my second sister name is " + sistername2)

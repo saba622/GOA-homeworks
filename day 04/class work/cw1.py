@@ -6,4 +6,6 @@ print("name")
 print(name)
 print("surname")
 print(surname)
+print(15)
+print(12+4)
 

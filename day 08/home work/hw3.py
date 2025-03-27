@@ -1,5 +1,4 @@
 #5) შექმენით 10 string ტიპის და 10 ინტეჯერ ტიპის ცვლადი, გააკეთეთ 5 კონკატინაციისა (სტრინგების შეერთების) და 5 მათემატიკური ჯამის მაგალითი
-
 # 10 string ტიპის ცვლადი
 str1 = "გამარჯობა"
 str2 = "ხალხო"
@@ -11,6 +10,12 @@ str7 = "სამაშვილი"
 str8 = "მეცხრე"
 str9 = "კლასის"
 str10 = "მოსწავლე"
+
+print(str1 + str2)
+print(str3 + str4)
+print(str5 + str6)
+print(str7 + str8)
+print(str9 + str10)
 
 
 
@@ -27,29 +32,15 @@ num9 = 90
 num10 = 100
 
 
-concat1 = str1 + " " + str2
-concat2 = str3 + " " + str4 + " " + str5
-concat3 = str6 + " " + str7 
-concat4 = str8 + " " + str9
-concat5 = str10 + " " + str1
+print(num1 + num2)
+print(num3 + num4)
+print(num5 + num6)
+print(num7 + num8)
+print(num9 + num10)
 
 
-sum1 = num1 + num2
-sum2 = num3 + num4
-sum3 = num5 + num6
-sum4 = num7 + num8
-sum5 = num9 + num10
 
 
-print(concat1)
-print(concat2)
-print(concat3)
-print(concat4)
-print(concat5)
 
 
-print(sum1)
-print(sum2)
-print(sum3)
-print(sum4)
-print(sum5)
+

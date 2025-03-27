@@ -8,9 +8,4 @@ occupation = input("what are you busy with: ")
 hobby = input("whats your hobby: ")
 
 
-print(name)
-print(surname)
-print(age)
-print(location)
-print(occupation)
-print(hobby)
+print(name + " "+ surname + " is " + age + " years old lives in " + location + " works as an " + occupation + " and enjoys " + hobby )

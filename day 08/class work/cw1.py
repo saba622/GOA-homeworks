@@ -4,4 +4,5 @@ num_2=int(input("choose_num2: "))
 print(num_1 +  num_2)
 
 current_level=int(input("please write mine curennt level: "))
-print(current_level + 1)
+current_level=current_level+1
+print(current_level)

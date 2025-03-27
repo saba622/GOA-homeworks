@@ -1,11 +1,11 @@
-name = "saba"
+name = input("enter your name: ")
 
-surname = "samashvili"
+surname = input("enter your surname: ")
 
-age =  15 
-
-
-city = "mcxetidan"
+age =  input("enter your age: ")
 
 
-print (name + " " + surname + " " + str(age)+" " + "wlis" + " " + city)
+city = input("enter your city: ")
+
+
+print (name + " " + surname + " " + age+" " + "wlis" + " " + city)

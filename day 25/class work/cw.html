@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>სურათის შეცვლა ღილაკით</title>
+    <style>
+        button {
+            margin: 5px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>სურათის მანიპულაცია ღილაკებით</h2>
+
+    <!-- სურათი -->
+    <img id="myImage" src="https://via.placeholder.com/300x200" alt="სურათი" width="300">
+
+    <br><br>
+
+    <!-- ღილაკები -->
+    <button onclick="changeImage()">შეცვალე სურათი</button>
+    <button onclick="resetImage()">დაუბრუნე საწყისს</button>
+    <button onclick="showAlert()">გამაფრთხილებელი ტექსტი</button>
+
+    <script>
+        // საწყისი სურათის მისამართი
+        const originalSrc = "https://via.placeholder.com/300x200";
+
+        // ახალი სურათის მისამართი
+        const newSrc = "https://placekitten.com/300/200";
+
+        function changeImage() {
+            document.getElementById("myImage").src = newSrc;
+        }
+
+        function resetImage() {
+            document.getElementById("myImage").src = originalSrc;
+        }
+
+        function showAlert() {
+            alert("Hello, have a nice day");
+        }
+    </script>
+
+</body>
+</html>

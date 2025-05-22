@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <title>Internal CSS Example</title>
+  <style>
+    /* ეს არის CSS სტილის ბლოკი, რომელიც განთავსებულია <style> ტეგში */
+    
+    /* h1 ელემენტისთვის ფონტის ზომა და ფერი */
+    h1 {
+      font-size: 36px; /* font-size განსაზღვრავს ტექსტის ზომას */
+      color: #2c3e50; /* color შეცვლის ტექსტის ფერს */
+      text-align: center; /* ტექსტის განლაგება ცენტრში */
+      margin-bottom: 20px; /* ქვედა შიდა დაშორება */
+    }
+    
+    /* p ელემენტისთვის ტექსტის სტილი */
+    p {
+      font-family: Arial, sans-serif; /* შრიფტის ოჯახის არჩევა */
+      font-size: 18px;
+      color: #34495e;
+      line-height: 1.5; /* სტრიქონებს შორის فاصله */
+      margin: 0 10px 30px 10px; /* ზედა, მარჯვნივ, ქვემოთ, მარცხნივ დაშორებები */
+    }
+    
+    /* button ელემენტის სტილი */
+    button {
+      background-color: #2980b9; /* ღილაკის ფონი */
+      color: white; /* ტექსტის ფერი */
+      padding: 10px 20px; /* შიდა დაშორება ზედა/ქვემოთ და მარცხნივ/მარჯვნივ */
+      border: none; /* საზღვრის წაშლა */
+      border-radius: 5px; /* გარშემორტყმის კუთხეების მოყვანა */
+      cursor: pointer; /* მაუსის კურსორის სტილი */
+      font-size: 16px;
+      transition: background-color 0.3s ease; /* ფონტის ფერის ცვლილების ანიმაცია */
+    }
+    /* ღილაკის ფონის ცვლილება მაუსის კურსორის ზედა */
+    button:hover {
+      background-color: #1abc9c;
+    }
+    
+    /* img ელემენტის სტილი */
+    img {
+      max-width: 100%; /* სურათი არ გადადის კონტეინერის სიგანეს */
+      height: auto; /* სურათის სიმაღლე ავტომატურად მორგებული */
+      display: block; /* გამოსახულების ბლოკის ელემენტად გადაქცევა */
+      margin: 0 auto 30px auto; /* ცენტრში განლაგება და ქვედა დაშორება */
+      border-radius: 10px; /* დახრილი კუთხეები */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ჩრდილი */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>სათაური H1</h1>
+  <p>ეს არის პარაგრაფი, რომელიც შეიცავს ტექსტის ზოგად ინფორმაციას და ფორმატირებულია CSS-ის საშუალებით.</p>
+  <button>დაწკაპე აქ</button>
+  <img src="https://via.placeholder.com/400x200" alt="მაგალითი სურათი" />
+
+</body>
+</html>

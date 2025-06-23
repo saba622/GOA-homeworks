@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>შრიფტების მაგალითი</title>
+
+  <!-- 1) პირველი პარაგრაფის ფონტის იმპორტი HTML-ის <link> ტეგით -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <style>
+    /* 1) Roboto შრიფტი — HTML <link> ტეგით დაიმპორტებულია */
+    #p1 {
+      font-family: 'Roboto', sans-serif; /* პირველია Roboto, fallback — sans-serif */
+    }
+
+    /* 2) მეორე პარაგრაფი — CSS import და კლასი */
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    .pacifico-text {
+      font-family: 'Pacifico', cursive; /* პირველია Pacifico, fallback — cursive */
+    }
+
+    /* 3) მესამე პარაგრაფი — CSS import Google Fonts-ით */
+    @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+    #p3 {
+      font-family: 'Courier Prime', monospace; /* fallback — monospace */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- პარაგრაფი 1: HTML <link> ტეგით იმპორტირებული შრიფტი -->
+  <p id="p1">
+    ეს არის Roboto შრიფტი (font-family: 'Roboto', sans-serif) <br>
+    იმპორტი შესრულებულია HTML-ის <code>&lt;link&gt;</code> ტეგით.
+  </p>
+
+  <!-- პარაგრაფი 2: CSS კლასი და @import გამოყენებით -->
+  <p class="pacifico-text">
+    ეს არის Pacifico შრიფტი (font-family: 'Pacifico', cursive) <br>
+    იმპორტი შესრულებულია CSS-ის @import მეშვეობით და კლასი მიანიჭებულია.
+  </p>
+
+  <!-- პარაგრაფი 3: ასევე @import გამოყენებით, თუმცა id-ით -->
+  <p id="p3">
+    ეს არის Courier Prime შრიფტი (font-family: 'Courier Prime', monospace) <br>
+    იმპორტი შესრულებულია CSS-ის @import მეშვეობით და გამოყენებულია id.
+  </p>
+
+</body>
+</html

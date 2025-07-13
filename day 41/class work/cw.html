@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>List Style Example</title>
+<style>
+
+  ol.custom-ordered {
+    list-style-position: inside;
+    list-style-type: upper-roman;
+    list-style-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Arrow_east.svg/24px-Arrow_east.svg.png');
+  }
+
+
+  ul.custom-unordered {
+    list-style: square inside url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Blue_pentagon.svg/20px-Blue_pentagon.svg.png');
+
+  }
+</style>
+</head>
+<body>
+
+<h2>დალაგებული სია (ol) ქვე-კუთვნილებებით:</h2>
+<ol class="custom-ordered">
+  <li>პირველი ელემენტი</li>
+  <li>მეორე ელემენტი</li>
+  <li>მესამე ელემენტი</li>
+  <li>მეოთხე ელემენტი</li>
+</ol>
+
+<h2>დაუდალაგებელი სია (ul) list-style გაერთიანებით:</h2>
+<ul class="custom-unordered">
+  <li>პირველი ელემენტი</li>
+  <li>მეორე ელემენტი</li>
+  <li>მესამე ელემენტი</li>
+  <li>მეოთხე ელემენტი</li>
+</ul>
+
+</body>
+</html>

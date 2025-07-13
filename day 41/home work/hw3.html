@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>უკუკავშირის ფორმა</title>
+<style>
+  form {
+    background-color: lightgray;     /* ფორმის ფონი */
+    padding: 20px;
+    max-width: 400px;
+    margin: 30px auto;
+    border-radius: 10px;
+    font-family: sans-serif;
+  }
+
+  label {
+    font-weight: bold;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+  }
+
+  input[type="text"],
+  textarea {
+    border-radius: 5px;
+    border: 1px solid blue;
+    width: 100%;
+    padding: 8px;
+    text-transform: capitalize; /* თითოეული სიტყვის პირველი ასო დიდი იქნება */
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+
+  input[type="text"]:hover {
+    background-color: #e0f0ff; /* ღია ლურჯი ფონი hover-ზე */
+  }
+
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: darkblue;
+  }
+</style>
+</head>
+<body>
+
+<form>
+  <label for="name">სახელი</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">ელფოსტა</label>
+  <input type="text" id="email" name="email" required>
+
+  <label for="message">შეტყობინება</label>
+  <textarea id="message" name="message" required></textarea>
+
+  <button type="submit">გაგზავნა</button>
+</form>
+
+</body>
+</html>
